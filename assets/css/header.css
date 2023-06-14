@@ -1,0 +1,28 @@
+.header-page{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header-menu ul{
+    display: flex;
+    color: white;
+    gap: 100px;
+    list-style: none
+    
+}
+
+.header-menu a{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}
+
+.linha-vertical {
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    display: inline-block; /* Permite que a linha vertical seja exibida na linha com os outros elementos */
+  }
