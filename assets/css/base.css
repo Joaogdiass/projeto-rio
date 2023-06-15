@@ -5,6 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.base{
+    background-color: white;
+    width: 100%;
+    height: 200vh;
+}
+
 .container{
     width: 100%;
     height: 100vh;
@@ -12,6 +18,8 @@
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    align-items: center;
+    text-align: center;
 }
 
 .bg-image-1{
