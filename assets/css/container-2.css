@@ -8,8 +8,8 @@
 }
 
 .apartamento-menu{
-    width: 1000px;
-    height: 800px;
+    width: 920px;
+    height: 825px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -19,15 +19,16 @@
 
 .pesquisa-menu{
     width: 100%;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .mensagem{
     width: 100%;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +45,7 @@
 
 .horizontal-line{
     width: 100%;
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,11 +64,12 @@
 .oapartamento{
     width: 100%;
     height: 450px;
+    display: flex;
 }
 
 .container-oapartamento{
-    width: 30%;
-    height: 50%;
+    width: 100%;
+    height: 49%;
     background-color: #70a4a4;
     display: flex;
     flex-direction: column;
@@ -83,3 +85,79 @@
 .container-oapartamento img{
     width: 30%;
 }
+
+.foto1{
+    width: 100%;
+    height: 51%;
+}
+
+.foto1 img{
+    width: 100%
+}
+
+.foto2{
+    display: flex;
+}
+
+.coluna1-apartamento{
+    width: 30%;
+    height: 460px;
+}
+
+.coluna2-apartamento{
+    width: 645px;
+    height: 460px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto2{
+    width: 100%;
+    height: 49%;
+
+}
+
+.foto2 img{
+    width: 100%;
+}
+
+.descricao-reserva{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descricao-reserva h3{
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+}
+
+.container-btn{
+    width: 70%;
+    height: 10%;
+    position: relative;
+}
+
+.btn-reserva{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+
+  .btn-reserva{
+    width: 120px;
+    height: 20px;
+  }
+
+  .btn-reserva a{
+    color: #70a4a4;
+    text-decoration: none;
+  }
