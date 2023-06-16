@@ -1,8 +1,9 @@
 .container2{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: #ffffff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +20,7 @@
 
 .pesquisa-menu{
     width: 100%;
-    height: 120px;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,7 @@
 
 .oapartamento{
     width: 100%;
-    height: 450px;
+    height: 455px;
     display: flex;
 }
 
@@ -101,12 +102,12 @@
 
 .coluna1-apartamento{
     width: 30%;
-    height: 460px;
+    height: 100%;
 }
 
 .coluna2-apartamento{
     width: 645px;
-    height: 460px;
+    height: 100%;
     text-align: center;
     align-items: center;
     display: flex;
@@ -152,13 +153,59 @@
     transform: translate(0, -50%);
   }
 
-  .btn-reserva{
+.btn-reserva{
     width: 120px;
     height: 20px;
-  }
+}
 
-  .btn-reserva a{
+.btn-reserva a{
     color: #70a4a4;
     text-decoration: none;
-  }
+}
+
+.localizacao{
+    width: 920px;
+    height: 825px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.box-linha1{
+    width: 100%;
+    height: 307px;
+    background-color: aqua;
+    display: flex;
+}
+
+.imagem1{
+    width: 71%;
+    height: 100%;
+    background-color: rgb(61, 77, 77);
+}
+
+.imagem1 img{
+    width: 100%;
+}
+
+.titulo-localizacao{
+    width: 31%;
+    height: 307px;
+    background-color: #70a4a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-localizacao img{
+    width: 30%;
+}
+
+.titulo-localizacao h2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
 
