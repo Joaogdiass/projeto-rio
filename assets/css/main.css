@@ -29,3 +29,34 @@
 .guest img{
     width: 20%;
 }
+
+.btn-arrow{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-arrow i{
+    color: white;
+}
+
+.btn-arrow i:hover{
+    transform: scale(1.2);
+    animation: arrow .6s infinite;
+}
+
+@keyframes arrow {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

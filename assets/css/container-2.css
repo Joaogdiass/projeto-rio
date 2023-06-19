@@ -175,7 +175,7 @@
 
 .box-linha1{
     width: 100%;
-    height: 307px;
+    height: 270px;
     background-color: aqua;
     display: flex;
 }
@@ -192,7 +192,7 @@
 
 .titulo-localizacao{
     width: 31%;
-    height: 307px;
+    height: 260px;
     background-color: #70a4a4;
     display: flex;
     flex-direction: column;

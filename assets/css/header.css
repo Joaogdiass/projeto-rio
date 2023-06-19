@@ -23,6 +23,7 @@
    text-decoration: none;
    color: white;
    font-size: 15px;
+   padding: 6px;
 }
 
 .linha-vertical {
@@ -35,4 +36,6 @@
   .header-menu a:hover{
     color: black;
     transition: .5s;
+    background-color: white;
+    border-radius: 6px;
   }
