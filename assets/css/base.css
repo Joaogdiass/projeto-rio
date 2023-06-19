@@ -26,3 +26,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),
     url(../images/pexels-matheus-bertelli-2868242.jpg);
 }
+
+html {
+    scroll-behavior: smooth;
+  }

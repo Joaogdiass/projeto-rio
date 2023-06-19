@@ -9,8 +9,8 @@
 }
 
 .apartamento-menu{
-    width: 920px;
-    height: 830px;
+    width: 979px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -63,13 +63,30 @@
 
 .oapartamento{
     width: 100%;
-    height: 455px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-apartamento1{
+    width: 100%;
+    height: 261px;
+    display: flex;
+    
+    
+}
+
+.linha-apartamento2{
+    width: 100%;
+    height: 276px;
     display: flex;
 }
 
-.container-oapartamento{
-    width: 100%;
-    height: 49%;
+.titulo-apartamento{
+    width: 330px;
+    height: 100%;
     background-color: #70a4a4;
     display: flex;
     flex-direction: column;
@@ -77,139 +94,59 @@
     align-items: center;
 }
 
-.container-oapartamento h2{
+.titulo-apartamento h2{
     font-weight: 500;
     color: white;
 }
 
-.container-oapartamento img{
+.titulo-apartamento img{
     width: 30%;
 }
 
-.foto1{
-    width: 100%;
-    height: 51%;
-}
-
-.foto1 img{
-    width: 100%
-}
-
-.foto2{
-    display: flex;
-}
-
-.coluna1-apartamento{
-    width: 30%;
+.foto1-apartamento{
+    width: 649px;
     height: 100%;
 }
 
-.coluna2-apartamento{
-    width: 645px;
+.foto2-apartamento{
+    width: 330px;
     height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
-.foto2{
-    width: 100%;
-    height: 49%;
-
-}
-
-.foto2 img{
-    width: 100%;
-}
-
-.descricao-reserva{
-    width: 70%;
-    height: 40%;
+.descricao-apartamento{
+    width: 649px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-.descricao-reserva h3{
-    font-weight: 500;
+.descricao-apartamento h4{
     color: gray;
-    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
-.container-btn{
-    width: 70%;
-    height: 10%;
+.btn-apartamento {
+    margin-top: 50px;
 }
 
-.btn-reserva{
-   text-align: center;
-}
-
-.btn-reserva{
-    width: 120px;
-    height: 20px;
-    margin-left: 15px;
-}
-
-.btn-reserva a{
-    color: #70a4a4;
-    text-decoration: none;
+.btn-apartamento a{
     padding: 6px;
 }
 
-.btn-reserva a:hover{
+.btn-apartamento a:hover{
     background-color: #70a4a4;
     color: white;
     transition: .5s;
 }
 
-.localizacao{
-    width: 920px;
-    height: 825px;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
-    margin-top: 5%;
-}
 
-.box-linha1{
-    width: 100%;
-    height: 220px;
-    background-color: aqua;
-    display: flex;
-}
 
-.imagem1{
-    width: 71%;
-    height: 100%;
-    background-color: rgb(61, 77, 77);
+.descricao-apartamento a{
+    color:#70a4a4;
+    text-decoration: none;
 }
-
-.imagem1 img{
-    width: 100%;
-    
-}
-
-.titulo-localizacao{
-    width: 275px;
-    height: 220px;
-    background-color: #70a4a4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.titulo-localizacao img{
-    width: 30%;
-}
-
-.titulo-localizacao h2{
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-}
-
