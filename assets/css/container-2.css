@@ -10,8 +10,7 @@
 
 .apartamento-menu{
     width: 920px;
-    height: 825px;
-    background-color: white;
+    height: 830px;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -143,24 +142,28 @@
 .container-btn{
     width: 70%;
     height: 10%;
-    position: relative;
 }
 
 .btn-reserva{
-    position: absolute;
-    bottom: 50%;
-    left: 0;
-    transform: translate(0, -50%);
-  }
+   text-align: center;
+}
 
 .btn-reserva{
     width: 120px;
     height: 20px;
+    margin-left: 15px;
 }
 
 .btn-reserva a{
     color: #70a4a4;
     text-decoration: none;
+    padding: 6px;
+}
+
+.btn-reserva a:hover{
+    background-color: #70a4a4;
+    color: white;
+    transition: .5s;
 }
 
 .localizacao{
@@ -175,7 +178,7 @@
 
 .box-linha1{
     width: 100%;
-    height: 270px;
+    height: 220px;
     background-color: aqua;
     display: flex;
 }
@@ -188,11 +191,12 @@
 
 .imagem1 img{
     width: 100%;
+    
 }
 
 .titulo-localizacao{
-    width: 31%;
-    height: 260px;
+    width: 275px;
+    height: 220px;
     background-color: #70a4a4;
     display: flex;
     flex-direction: column;
