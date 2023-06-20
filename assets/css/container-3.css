@@ -55,7 +55,7 @@
 
 .linha2-localizacao h4{
     color: gray;
-    font-weight: 500;
+    font-weight: 200;
     padding: 60px;
     font-size: 15px;
 }
@@ -105,12 +105,11 @@
 
 .box-sobrenos img{
     width: 25%;
-    background-color: ;
 }
 
 .box-sobrenos h4{
     color: white;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .box-sobrenos a{
