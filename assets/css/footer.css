@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ footer{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     gap: 12px;
 }
 
@@ -25,7 +25,6 @@ footer{
     font-weight: 500;
     color:gray;
     padding: 5px;
-    
 }
 
 .coluna-footer h4{
@@ -55,10 +54,51 @@ footer{
     width: 150px;
     height: 50px;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .icons-footer i{
-    padding: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: gray;
 }
+
+.coluna2-footer{
+    width: 326px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.coluna2-footer img{
+    width: 30%;
+}
+
+.coluna2-footer h4{
+    font-weight: 500;
+}
+
+.coluna3-footer{
+    width: 326px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.coluna3-footer img{
+    width: 30%;
+}
+
+.coluna3-footer h4{
+    font-weight: 500;
+}
+
+
 

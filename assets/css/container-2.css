@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e8ecec;
 }
 
 .apartamento-menu{
@@ -119,6 +120,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .descricao-apartamento h4{
