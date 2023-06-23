@@ -4,12 +4,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .box-footer{
     width: 979px;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
 }
 
 .coluna-footer{

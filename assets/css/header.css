@@ -14,15 +14,14 @@
 .header-menu ul{
     display: flex;
     color: white;
-    gap: 100px;
+    gap: 65px;
     list-style: none
-    
 }
 
 .header-menu a{
    text-decoration: none;
    color: white;
-   font-size: 15px;
+   font-size: 12px;
    padding: 6px;
 }
 
